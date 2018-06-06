@@ -52,7 +52,8 @@
         h3 {
             font-family: "Noto Sans TC";
             font-size: 15px;
-            line-height: 40px
+            line-height: 40px;
+            color: #5b5b5b
         }
 
         h4 {
@@ -101,10 +102,10 @@
                 <br><br><br><br><br><br><br><br>
                 <ul>
                     <li><a href="index.html"><span class="here">Homepage</span></a></li>
-                    <li><a href="economic.html"><span class="here">Economic</span></a></li>
-                    <li><a href="#culture"><span class="here">Culture</span></a></li>
-                    <li><a href="#welfare"><span class="here">Welfare</span></a></li>
+                    <li><a href="#changhua"><span class="here">Changhua</span></a></li>
+                    <li><a href="#situation"><span class="here">Situation</span></a></li>
                     <li><a href="#problem"><span class="here">Problem</span></a></li>
+                    <li><a href="#solution"><span class="here">Solution</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -130,10 +131,10 @@
                         <header>
                         </header>
 
-                        <div class="row" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='about.html';">
+                        <div id="changhua" class="row" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='about.html';">
                             <div class="6u">
-                                <p class="posted" style="font-size: 24px;font-weight: 700;">關於彰化縣</p>
-                                <h3>面臨人口老化加速，失能及失智者的照顧需求大量增加，家庭照顧負擔變為十分沈重。根據內政部的人口調查，目前彰化縣的老年人口比例高達14.78%，已經屬於「高齡社會」；再加上彰化主要經濟產業為農業，造成青少年人口就業外移的現象，導致老年人口雖多，卻無法得到足夠的人力及資源來照顧老人，如此可見彰化縣對於長照是有一定的需求。
+                                <p class="posted" style="font-size: 26px;font-weight: 700;">關於彰化縣</p>
+                                <h3 style="font-size: 16px;">面臨人口老化加速，失能及失智者的照顧需求大量增加，家庭照顧負擔變為十分沈重。根據內政部的人口調查，目前彰化縣的老年人口比例高達14.78%，已經屬於「高齡社會」；再加上彰化主要經濟產業為農業，造成青少年人口就業外移的現象，導致老年人口雖多，卻無法得到足夠的人力及資源來照顧老人，如此可見彰化縣對於長照是有一定的需求。
                                 </h3>
                             </div>
                             <div class="6u">
@@ -142,13 +143,13 @@
                         </div>
 
                         <br><br><br><br><br>
-                        <div class="row" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='now.html';">
+                        <div id="situation" class="row" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='now.html';">
                             <div class="6u">
                                 <a href="now.html" class="image full"><img src="images/長照現況.jpg"  alt="" /></a>
                             </div>
                             <div class="6u">
-                                <p class="posted" style="font-size: 24px;font-weight: 700;">長照現況 — 長照2.0及長照ABC</p>
-                                <h3>長期照護由原本的長照1.0進階為長照2.0，以「找得到、看得到、用得到」為目標，擴大服務對象、增加服務項目並在服務單位掛上掛牌，希望可以讓更多人受惠、減少民眾負擔。
+                                <p class="posted" style="font-size: 26px;font-weight: 700;">長照現況 — 長照2.0及長照ABC</p>
+                                <h3 style="font-size: 16px;">長期照護由原本的長照1.0進階為長照2.0，以「找得到、看得到、用得到」為目標，擴大服務對象、增加服務項目並在服務單位掛上掛牌，希望可以讓更多人受惠、減少民眾負擔。
                                 </h3>
 
                             </div>
@@ -166,31 +167,34 @@
 
     <!--中間區塊-->
     <div id="featured" style="padding-top: 50px">
-        <div class="container">
-            <p class="posted" style="font-size: 24px;font-weight: 700;text-align:center;">長期照顧面臨問題</p>
+        <div id="problem" class="container">
+            <p class="posted" style="font-size: 28px;font-weight: 700;text-align:center;">長期照顧面臨問題</p>
             <div class="row">
 
 
                 <div class="4u">
-                    <div class="" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='about.html';">
+                    <div class="" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='organization.html';">
                         <a class="image full"><img src="images/picture3.JPG" height=255px alt="" /></a>
-                        <p class="posted">政府喊口號，長照機構究竟夠不夠</p>
+                        <p class="posted" style="font-size: 18px;">政府喊口號，長照機構究竟夠不夠</p>
                         <h3>長照由原本的長照1.0進階為長照2.0，以「找得到、看得到、用得到」為目標，擴大服務對象、增加服務項目並在服務單位掛上掛牌，希望可以讓更多人受惠、減少民眾負擔。</h3>
                     </div>
                 </div>
 
                 <div class="4u">
-                    <a class="image full"><img src="images/picture4.jpg"  alt="" /></a>
-                    <p class="posted">人權問題！外籍看護權力影響長照人力資源</p>
-                    <h3>在致力發展長照2.0使的外籍看護已是現在長照人力資源的重要來源之一，因此，如何提供足夠誘因、保障外籍看護權利而留住外籍看護人力資源是十分重要的。</h3>
+                    <div class="" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='foreignworker.html';">
+                        <a class="image full"><img src="images/picture4.jpg"  alt="" /></a>
+                        <p class="posted" style="font-size: 18px;">人權問題！外籍看護權力影響長照人力資源</p>
+                        <h3>在致力發展長照2.0使的外籍看護已是現在長照人力資源的重要來源之一，因此，如何提供足夠誘因、保障外籍看護權利而留住外籍看護人力資源是十分重要的。</h3>
+                    </div>
                 </div>
 
                 <div class="4u">
-                    <a class="image full"><img src="images/picture5.jpg"  alt="" /></a>
-                    <p class="posted">長照人力短缺—薪水條件及中央培訓制度造成人力不足</p>
-                    <h3>雖然中央培訓人力制度改變，但仍無法符合各地需求，加上薪水條件誘因不足，導致目前人力培訓計畫仍停滯不前，長照人力資源依舊缺乏。</h3>
+                    <div class="" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='humanresource.html';">
+                        <a class="image full"><img src="images/picture5.jpg"  alt="" /></a>
+                        <p class="posted" style="font-size: 18px;">長照人力資源短缺—薪水條件及中央培訓制度造成人力不足</p>
+                        <h3>雖然中央培訓人力制度改變，但仍無法符合各地需求，加上薪水條件誘因不足，導致目前人力培訓計畫仍停滯不前，長照人力資源依舊缺乏。</h3>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -206,30 +210,38 @@
                 <br><br>
 
                 <!-- Content -->
-                <div id="content ">
-                    <section>
-                        <header>
-                        </header>
-                        <div class="row ">
-                            <div class="4u ">
-
-                                <a class="image full "><img src="images/picture8.jpg "  alt=" " /></a>
-                                <p class="posted ">長照機構增設！政府可以給什麼幫助？</p>
-                                <h3>彰化縣老年人口已達彰化縣人口之14.21%，成為「高齡社會」，因此彰化縣政府</h3>
+                <div id="content">
+                    <div id="solution">
+                        <p class="posted" style="font-size: 28px;font-weight: 700;text-align:center;">長期照顧訴求</p>
+                        <section>
+                            <header>
+                            </header>
+                            <div class="row ">
+                                <div class="4u">
+                                    <div class="" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='solveorganization.html';">
+                                        <a class="image full "><img src="images/picture8.jpg " height=255px  alt=" " /></a>
+                                        <p class="posted" style="font-size: 18px;">長照機構增設！政府可以給什麼幫助？</p>
+                                        <h3>彰化縣老年人口已達彰化縣人口之14.21%，成為「高齡社會」，在老年人口日益增加的情形下，長照據點的設立變得更加重要。</h3>
+                                    </div>
+                                </div>
+                                <div class="4u">
+                                    <div class="" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='solveworker.html';">
+                                        <a class="image full "><img src="images/picture7.jpg "  alt=" " /></a>
+                                        <p class="posted" style="font-size: 18px;">外籍看護問題，到底該如何解決？</p>
+                                        <h3>為了預防彰化面臨照護人員短缺的問題，如何留住外籍看護人力資源，並使外籍看護的照顧水平達一定標準是政府應努力進行的目標。</h3>
+                                    </div>
+                                </div>
+                                <div class="4u">
+                                    <div class="" onmouseover="change(this)" onmouseout="nochange(this)" style="cursor: pointer;" ; onclick="location.href='solvehumanresource.html';">
+                                        <a class="image full "><img src="images/picture6.jpg " alt=" " /></a>
+                                        <p class="posted" style="font-size: 18px;">對於照服員不足，我們需要什麼？</p>
+                                        <h3>除了外籍看護，解決人力資源不足的根本方法是由台灣本國人加入照服員的行業，讓兼具專業及知識的人才補足人力短缺的部分。</h3>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="4u ">
-                                <a class="image full "><img src="images/picture7.jpg "  alt=" " /></a>
-                                <p class="posted ">外籍看護問題，到底該如何解決？</p>
-                                <h3>為了預防彰化面臨照護人員短缺的問題，首先要想辦法留住外籍看護，因為其為彰化的主要看謢人員來源，接著彰化要在本身地區，培育專屬於地方的長照人員，並且根據每個鄉鎮市的需求，給予不一樣的長照訓練，有著專業化的長照人員。</h3>
-                            </div>
-                            <div class="4u ">
-                                <a class="image full "><img src="images/picture6.jpg " alt=" " /></a>
-                                <p class="posted ">對於照服員不足，我們需要什麼？</p>
-                                <h3></h3>
-                            </div>
-                        </div>
-                        <p><br></p>
-                    </section>
+                            <p><br></p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
@@ -245,6 +257,9 @@
                             <li><a href="https://www.chcg.gov.tw/ch/00home/home.asp">Changhua County Government Website</a></li>
                             <li><a href="http://social.chcg.gov.tw/00home/index1.asp">Department Of Social Affairs Website</a></li>
                             <li><a href="https://www.mohw.gov.tw/mp-1.html">Ministry of Health and Welfare</a></li>
+                            <li><a href="http://ltcgis.mohw.gov.tw/Index/resource.aspx">Long-Term Care Map</a></li>
+                            <li><a href="https://1966.gov.tw/LTC/mp-201.html">Long-term Care Website (Government)</a></li>
+                            <li><a href="https://statdb.mol.gov.tw/statis/jspProxy.aspx?sys=210&kind=21&type=1&funid=c13090&parm1=code1=1107%20codnm1=xxe5xxbdxxb0xxe5xx8cxx96xxe7xxb8xxa3%20code2=57&rdm=enNrnjV3">Department of Labor</a></li>
                         </ul>
                     </section>
                 </div>
